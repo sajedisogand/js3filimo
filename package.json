@@ -1,0 +1,23 @@
+{
+  "name": "filimo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typescript": "npx tsc ./public/typescript/main.ts --outDir ./public/js --watch",
+    "tailwind": "npx tailwindcss -i ./public/tailwind/tailwind.css -o ./public/css/main.css --watch",
+    "server": "npx json-server db.json --port 3001"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.2",
+    "swiper": "^11.1.14"
+  }
+}

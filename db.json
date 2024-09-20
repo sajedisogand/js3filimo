@@ -1,0 +1,851 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "name": "فیلموتور",
+      "link": "#",
+      "dropdown": []
+    },
+    {
+      "id": "2",
+      "name": "فیلم",
+      "link": "#",
+      "dropdown": [
+        {
+          "id": "1",
+          "name": "انیمیشن",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "2",
+          "name": "وحشت",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "3",
+          "name": "هیجان انگیز",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "4",
+          "name": "علمی تخیلی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "5",
+          "name": "ماجراجویی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "6",
+          "name": "جنایی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "7",
+          "name": "رازآلود",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "8",
+          "name": "مستند",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "9",
+          "name": "تاریخی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "10",
+          "name": "بیوگرافی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "11",
+          "name": "کمدی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "12",
+          "name": "اکشن",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "13",
+          "name": "جنگی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "14",
+          "name": "عاشقانه",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "15",
+          "name": "خانوادگی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "16",
+          "name": "فانتزی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "17",
+          "name": "وسترن",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "18",
+          "name": "درام",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "19",
+          "name": "ورزشی",
+          "link": "#",
+          "dropdown": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "سریال",
+      "link": "#",
+      "dropdown": [
+        {
+          "id": "21",
+          "name": "کمدی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "22",
+          "name": "ریالیتی شو",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "23",
+          "name": "عاشقانه",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "24",
+          "name": "اکشن",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "25",
+          "name": "مستند",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "26",
+          "name": "تاریخی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "27",
+          "name": "هیجان انگیز",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "28",
+          "name": "رازآلود",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "29",
+          "name": "ماجراجویی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "30",
+          "name": "فانتزی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "31",
+          "name": "انیمیشن",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "32",
+          "name": "خانوادگی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "33",
+          "name": "وحشت",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "34",
+          "name": "جنگی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "35",
+          "name": "جنایی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "36",
+          "name": "علمی تخیلی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "37",
+          "name": "درام",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "38",
+          "name": "تاک شو",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "39",
+          "name": "گیم شو",
+          "link": "#",
+          "dropdown": []
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "ایرانی",
+      "link": "#",
+      "dropdown": []
+    },
+    {
+      "id": "5",
+      "name": "خارجی",
+      "link": "#",
+      "dropdown": []
+    },
+    {
+      "id": "6",
+      "name": "مجموعه ها",
+      "link": "#",
+      "dropdown": [
+        {
+          "id": "40",
+          "name": "فیلم های ایمان صفا",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "41",
+          "name": "فیلم های رعنا آزادی ور",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "42",
+          "name": "فیلم های غلامرضا نیکخواه",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "43",
+          "name": "فیلم های هانیه توسلی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "44",
+          "name": "فیلم های جواد عزتی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "45",
+          "name": "فیلم های سحر قریشی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "46",
+          "name": "فیلم های مهران غفوریان",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "47",
+          "name": "فیلم های پریناز ایزدیار",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "48",
+          "name": "فیلم های شهاب حسینی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "49",
+          "name": "همه لیست ها ",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "50",
+          "name": "بر اساس داستان واقعی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "51",
+          "name": "پایان غیر منتظره",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "52",
+          "name": "هوش مصنوعی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "53",
+          "name": "هنرهای رزمی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "54",
+          "name": "بر اساس رمان",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "55",
+          "name": "قاتل سریالی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "56",
+          "name": "سفر در زمان",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "57",
+          "name": "پایان جهان",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "58",
+          "name": "ابر قهرمان",
+          "link": "#",
+          "dropdown": []
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "فیلیمو مدرسه",
+      "link": "#",
+      "dropdown": []
+    },
+    {
+      "id": "8",
+      "name": "کودک",
+      "link": "#",
+      "dropdown": [
+        {
+          "id": "59",
+          "name": "شبکه کودک",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "60",
+          "name": "باب اسفنجی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "61",
+          "name": "ماجراجویی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "62",
+          "name": "ولاد و نیکی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "63",
+          "name": "بچه رئیس",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "64",
+          "name": "ماشین ها",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "65",
+          "name": "انیمیشن زیر 15 سال",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "66",
+          "name": "کودک ایرانی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "67",
+          "name": "سگ های نگهبان",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "68",
+          "name": "دختر کفشدوزکی",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "69",
+          "name": "هتل ترانسیلوانیا",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "70",
+          "name": "اژدهاو  هیولاها",
+          "link": "#",
+          "dropdown": []
+        },
+        {
+          "id": "71",
+          "name": "پرنسس",
+          "link": "#",
+          "dropdown": []
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "جستجو",
+      "link": "#",
+      "dropdown": []
+    }
+  ],
+  "filter": [
+    {
+      "id": "1",
+      "name": "فیلم و سریال",
+      "dropdown": [
+        { "id": "1", "name": "همه", "dropdown": [] },
+        { "id": "2", "name": "فیلم", "dropdown": [] },
+        { "id": "3", "name": "سریال", "dropdown": [] }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "ژانر",
+      "dropdown": [
+        { "id": "1", "name": "همه", "dropdown": [] },
+        { "id": "2", "name": "کمدی", "dropdown": [] },
+        { "id": "3", "name": "تاک شو", "dropdown": [] },
+        { "id": "3", "name": "جنایی", "dropdown": [] },
+        { "id": "3", "name": "ماجراجویی", "dropdown": [] },
+        { "id": "3", "name": "ریالیتی شو", "dropdown": [] },
+        { "id": "3", "name": "وسترن", "dropdown": [] },
+        { "id": "3", "name": "خانوادگی", "dropdown": [] },
+        { "id": "3", "name": "ورزشی", "dropdown": [] },
+        { "id": "3", "name": "بیوگرافی", "dropdown": [] },
+        { "id": "3", "name": "مستند", "dropdown": [] },
+        { "id": "3", "name": "موسیقی", "dropdown": [] },
+        { "id": "3", "name": "تئاتر", "dropdown": [] }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "کشور",
+      "dropdown": [
+        { "id": "1", "name": "همه", "dropdown": [] },
+        { "id": "2", "name": "انگلیس", "dropdown": [] },
+        { "id": "3", "name": "چین", "dropdown": [] },
+        { "id": "3", "name": "ایران", "dropdown": [] },
+        { "id": "3", "name": "کره جنوبی", "dropdown": [] },
+        { "id": "3", "name": "کانادا", "dropdown": [] },
+        { "id": "3", "name": "ایتالیا", "dropdown": [] },
+        { "id": "3", "name": "آمریکا", "dropdown": [] }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "زبان",
+      "dropdown": [
+        { "id": "1", "name": "همه", "dropdown": [] },
+        { "id": "2", "name": "فارسی(دوبله)", "dropdown": [] },
+        { "id": "3", "name": "زبان اصلی(زیرنویس)", "dropdown": [] }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "سن",
+      "dropdown": [
+        { "id": "1", "name": "همه", "dropdown": [] },
+        { "id": "2", "name": "زیر 3 سال", "dropdown": [] },
+        { "id": "3", "name": "تا 12 سال", "dropdown": [] },
+        { "id": "3", "name": "تا 15 سال", "dropdown": [] },
+        { "id": "3", "name": "تا 18 سال", "dropdown": [] }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "اعمال فیلتر",
+      "dropdown": []
+    }
+  ],
+  "special": [
+    {
+      "id": "1",
+      "image": "./public/Img/pr/04.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "2",
+      "image": "./public/Img/pr/03.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "3",
+      "image": "./public/Img/pr/05.jpg",
+      "title": "اکران آنلاین"
+    },
+    {
+      "id": "4",
+      "image": "./public/Img/pr/06.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "5",
+      "image": "./public/Img/pr/07.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "6",
+      "image": "./public/Img/pr/08.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "7",
+      "image": "./public/Img/pr/09.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "8",
+      "image": "./public/Img/pr/10.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "9",
+      "image": "./public/Img/pr/11.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "10",
+      "image": "./public/Img/pr/12.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "11",
+      "image": "./public/Img/pr/13.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "12",
+      "image": "./public/Img/pr/14.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "13",
+      "image": "./public/Img/pr/15.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "14",
+      "image": "./public/Img/pr/16.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "15",
+      "image": "./public/Img/pr/17.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "16",
+      "image": "./public/Img/pr/18.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "17",
+      "image": "./public/Img/pr/19.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "18",
+      "image": "./public/Img/pr/20.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "19",
+      "image": "./public/Img/pr/21.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "20",
+      "image": "./public/Img/pr/22.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "21",
+      "image": "./public/Img/pr/23.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "22",
+      "image": "./public/Img/pr/24.jpg",
+      "title": "رایگان ایرانسلی"
+    },
+    {
+      "id": "23",
+      "image": "./public/Img/pr/25.jpg",
+      "title": "رایگان ایرانسلی"
+    }
+
+  ],
+  "khafan": [
+    {
+      "id": "1",
+      "image": "./public/Img/Khafan/01.jpg",
+      "title": "رایگان ایرانسلی",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "2",
+      "image": "./public/Img/Khafan/02.jpg",
+      "title": "رایگان ایرانسلی",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "3",
+      "image": "./public/Img/Khafan/03.jpg",
+      "title": "رایگان ایرانسلی",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "4",
+      "image": "./public/Img/Khafan/04.jpg",
+      "title": "رایگان ایرانسلی",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "5",
+      "image": "./public/Img/Khafan/05.jpg",
+      "title": "رایگان ایرانسلی",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "6",
+      "image": "./public/Img/Khafan/06.jpg",
+      "title": "رایگان ایرانسلی",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "7",
+      "image": "./public/Img/Khafan/07.jpg",
+      "title": "رایگان ایرانسلی",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "8",
+      "image": "./public/Img/Khafan/08.jpg",
+      "title": "رایگان ایرانسلی",
+      "text": "تمساح خونی"
+    }
+  ],
+  "taze": [
+    {
+      "id": "1",
+      "image": "./public/Img/taze/01.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "2",
+      "image": "./public/Img/taze/02.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "3",
+      "image": "./public/Img/taze/03.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "4",
+      "image": "./public/Img/taze/04.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "5",
+      "image": "./public/Img/taze/05.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "6",
+      "image": "./public/Img/taze/06.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "7",
+      "image": "./public/Img/taze/07.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "8",
+      "image": "./public/Img/taze/08.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    }
+  ],
+  "hot": [
+    {
+      "id": "1",
+      "image": "./public/Img/hot/01.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "2",
+      "image": "./public/Img/hot/02.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "3",
+      "image": "./public/Img/hot/03.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "4",
+      "image": "./public/Img/hot/04.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "5",
+      "image": "./public/Img/hot/05.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "6",
+      "image": "./public/Img/hot/06.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "7",
+      "image": "./public/Img/hot/07.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    },
+    {
+      "id": "8",
+      "image": "./public/Img/hot/08.jpg",
+      "title": "اکران آنلاین",
+      "text": "تمساح خونی"
+    }
+  ],
+  "footer": [
+    {
+      "id": "1",
+      "name": "تماشا با تلوزیون",
+      "link": "#",
+      "dropdown": []
+    },
+    {
+      "id": "2",
+      "name": "اپلیکیشن ها",
+      "link": "#",
+      "dropdown": []
+    },
+    {
+      "id": "3",
+      "name": "تماس و پشتیبانی",
+      "link": "#",
+      "dropdown": []
+    },
+    {
+      "id": "4",
+      "name": "فروشگاه",
+      "link": "#",
+      "dropdown": []
+    },
+    {
+      "id": "5",
+      "name": "سایر لینک ها",
+      "link": "#",
+      "dropdown": []
+    }
+  ]
+}

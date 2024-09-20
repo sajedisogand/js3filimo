@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "filimo";
+    src: url(/public/font/IRANSans-Medium.eot);
+    src: url(/public/font/IRANSans-Medium.ttf);
+    src: url(/public/font/IRANSans-Medium.woff);
+    src: url(/public/font/IRANSans-Medium.woff2);
+  }
+}
+
+@layer components {
+  .menu {
+    @apply w-full h-[55px] flex flex-row bg-black justify-start items-center font-['filimo'] text-[12px] sticky top-0 z-[1000];
+  }
+  .main__menu {
+    @apply w-[70%] flex flex-row justify-start gap-x-[40px] pr-9 items-center h-full;
+  }
+  .menu__item {
+    @apply mobile:hidden desktop:flex text-white hover:text-yellow-500 transition-all duration-200 ease-linear h-full flex  items-center  relative;
+  }
+  .submenu {
+    @apply opacity-0 hidden;
+  }
+  .menu__item:hover > .submenu {
+    @apply w-[330px] flex flex-col absolute top-[55px] bg-black rounded-[10px] flex-wrap h-[350px] gap-y-[16px] p-[13px] text-white transition-all opacity-100 duration-200 right-[-5px];
+  }
+  .sub__item {
+    @apply hover:text-yellow-500 duration-200 transition-all ease-linear;
+  }
+
+  .btn__eshtrak {
+    @apply mobile:w-[139px] mobile:bg-[#666666] mobile:hover:bg-[#363636] text-white  desktop:bg-[#1CB561] font-['filimo'] text-[12px] px-[30px] py-[10px] rounded-[5px] box-border desktop:hover:bg-green-700 transition-all saturate-200 ease-linear mx-[20px];
+  }
+  .sign__up {
+    @apply desktop:flex flex-row;
+  }
+
+  .btn__signup {
+    @apply mobile:hidden desktop:flex  desktop:bg-[#434343] desktop:text-white desktop:font-['filimo'] desktop:text-[12px] desktop:px-[20px] desktop:py-[10px] desktop:rounded-[5px] desktop:hover:bg-[#575757] desktop:transition-all saturate-200 ease-linear;
+  }
+  .image {
+    @apply mobile:w-[40%] desktop:w-[10%] h-full flex flex-row flex-wrap justify-center items-center;
+  }
+  .image > img {
+    @apply desktop:w-[80px] mobile:w-[120px];
+  }
+  .slider {
+    @apply w-[100%] h-[500px] bg-[#2b2b2b] relative overflow-hidden;
+  }
+  .slides {
+    @apply w-[100%] h-[600px] flex flex-row flex-wrap;
+  }
+  .slide {
+    @apply w-[100%] h-[800px]  absolute top-[0px] transition-all duration-300 ease-linear;
+  }
+  .slide > img {
+    @apply w-[100%] h-[100%] object-cover;
+  }
+  .next {
+    @apply w-[45px] h-[45px] bg-black text-white rounded-[50%] absolute bottom-[30px] left-[95px] translate-y-[-50%] flex justify-center items-center opacity-[70%];
+  }
+  .prev {
+    @apply w-[45px] h-[45px] bg-black text-white rounded-[50%] absolute bottom-[30px] left-[50px] translate-y-[-50%] flex justify-center items-center opacity-[70%];
+  }
+  .next:disabled,
+  .prev:disabled {
+    @apply opacity-5 cursor-not-allowed;
+  }
+  .filter {
+    @apply w-full mobile:h-[500px] desktop:h-[70px] bg-[#3b3b3b] flex flex-row flex-wrap justify-center items-center px-[10px] gap-x-[8px];
+  }
+  .filter__item {
+    @apply mobile:w-[90%] desktop:w-[160px] h-[35px] flex flex-row justify-between items-center p-[8px] rounded-[4px] border-[1px] border-[#6b6b6b] font-['filimo'] text-[11px] text-white hover:bg-[#2b2b2b] transition-all duration-150 ease-linear cursor-pointer relative;
+  }
+  .filter__ok {
+    @apply w-[180px] h-[35px] flex flex-row justify-center items-center bg-[#FDC13C] rounded-[5px] mr-[20px]
+  font-['filimo'] text-[12px] hover:bg-yellow-500 transition-all duration-200;
+  }
+  .submenu__filter {
+    @apply hidden;
+  }
+  .filter__item:hover > .submenu__filter {
+    @apply mobile:bg-black mobile:h-[300px] mobile:w-full mobile:z-[999] desktop:h-auto desktop:bg-black flex flex-col w-[160px] absolute top-[32px] right-0 justify-start gap-y-[10px]  p-[6px] rounded-[2px] transition-all duration-200;
+  }
+  .submenu__filter > a:hover {
+    @apply text-yellow-500;
+  }
+
+  .special__title {
+    @apply w-[100%] bg-black h-[100px] flex justify-between items-end px-[30px] pb-[10px];
+  }
+  .main__title {
+    @apply font-['filimo'] text-white  text-[15px] hover:text-yellow-500 transition-all duration-200;
+  }
+  .watch__more {
+    @apply flex flex-row text-yellow-500 font-['filimo'] text-[12px];
+  }
+  .special__products {
+    @apply w-[100%]  flex flex-row  gap-[30px] justify-center flex-wrap;
+  }
+  .img__special {
+    @apply w-[300px] h-[180px] relative rounded-[30px];
+  }
+  .img__special > span {
+    @apply h-[25px]  bg-green-600 absolute z-[900] left-[5px] top-[5px] text-[11px] font-['filimo'] rounded-[12px] p-[4px] flex justify-center items-center text-white;
+  }
+  .img__special > img {
+    @apply w-[300px] h-[180px] overflow-hidden rounded-[8px];
+  }
+
+  .cover {
+    @apply w-full h-full absolute bottom-0  left-0 bg-black opacity-0 flex flex-row justify-end items-start z-[990];
+  }
+
+  .img__special:hover > .cover {
+    @apply opacity-70 transition-all duration-200;
+  }
+  .special__main {
+    @apply w-[100%] flex flex-col justify-center bg-black mb-[20px];
+  }
+  .title__khafan {
+    @apply w-[100%] h-[70px] flex flex-row justify-between items-center bg-black px-[30px] pb-[10px];
+  }
+  .khafan__img {
+    @apply w-[155px] h-[210px] relative rounded-[30px];
+  }
+  .khafan__img > img {
+    @apply w-[155px] h-[210px] overflow-hidden rounded-[5px];
+  }
+  .khafan__img > span {
+    @apply h-[20px] bg-green-600 absolute z-[900] left-[2px] top-[5px] text-[11px] font-['filimo'] rounded-[12px] p-[4px] flex justify-center items-center text-white;
+  }
+  .main__khafan {
+    @apply w-[100%] flex flex-row flex-wrap gap-[8px] justify-center bg-black mb-[20px] mobile:overflow-hidden;
+  }
+  .cover__khafan {
+    @apply w-full h-full absolute bottom-0 bg-black opacity-0;
+  }
+  .khafan__img:hover > .cover__khafan {
+    @apply opacity-65 transition-all duration-300 z-[990];
+  }
+  .khafan__img > p {
+    @apply w-full p-[5px] text-right h-[50px] font-['filimo'] text-white text-[12px] mb-[20px];
+  }
+  .main__taze {
+    @apply w-[100%] flex flex-row gap-[8px] justify-center bg-black;
+  }
+  .footer {
+    @apply mobile:justify-center w-full h-[40px] bg-[#2b2b2b] fixed bottom-0 flex flex-row gap-[20px] z-[990] font-['filimo'] text-[#8b8b8b] desktop:justify-start items-center text-[11px] px-[20px] transition-all duration-200;
+  }
+  .footer > div > a {
+    @apply hover:text-white transition-all duration-200 relative;
+  }
+  .footer__sub {
+    @apply absolute w-full h-[200px] bg-red-50 flex;
+  }
+  .title__taze {
+    @apply w-[100%] h-[70px] flex flex-row justify-between items-center bg-black px-[30px] pb-[10px];
+  }
+  .taze__image {
+    @apply w-[155px] h-[210px] relative rounded-[30px];
+  }
+  .taze__image > img {
+    @apply w-[155px] h-[210px] overflow-hidden rounded-[5px];
+  }
+  .taze__image > span {
+    @apply h-[20px] bg-green-600 absolute z-[900] left-[2px] top-[5px] text-[11px] font-['filimo'] rounded-[12px] p-[4px] flex justify-center items-center text-white;
+  }
+  .main__taze {
+    @apply w-[100%] flex flex-row flex-wrap gap-[8px] justify-center bg-black mb-[20px] mobile:overflow-hidden;
+  }
+  .cover__taze {
+    @apply w-full h-full absolute bottom-0 bg-black opacity-0;
+  }
+  .taze__image:hover > .cover__taze {
+    @apply opacity-65 transition-all duration-300 z-[990];
+  }
+  .taze__image > p {
+    @apply w-full p-[5px] text-right h-[50px] font-['filimo'] text-white text-[12px] mb-[20px] bg-red-600;
+  }
+  .title__hot {
+    @apply w-[100%] h-[70px] flex flex-row justify-between items-center bg-black px-[30px] pb-[10px] mt-[80px];
+  }
+  .hot__image {
+    @apply w-[155px] h-[210px] relative rounded-[30px];
+  }
+  .hot__image > img {
+    @apply w-[155px] h-[210px] overflow-hidden rounded-[5px];
+  }
+  .hot__image > span {
+    @apply h-[20px] bg-green-600 absolute z-[900] left-[2px] top-[5px] text-[11px] font-['filimo'] rounded-[12px] p-[4px] flex justify-center items-center text-white;
+  }
+  .main__hot {
+    @apply w-[100%] flex flex-row gap-[8px]  bg-black mb-[20px]  flex-wrap  justify-center  mobile:overflow-hidden mb-[100px];
+  }
+  .cover__hot {
+    @apply w-full h-full absolute bottom-0 bg-black opacity-0;
+  }
+  .hot__image:hover > .cover__hot {
+    @apply opacity-65 transition-all duration-300 z-[990];
+  }
+  .hot__image > p {
+    @apply w-full p-[5px] text-right h-[50px] font-['filimo'] text-white text-[12px] mb-[20px];
+  }
+}
